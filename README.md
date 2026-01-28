@@ -2,7 +2,6 @@
 
 Este projeto é uma aplicação Fullstack composta por uma API (Node.js/Express) e um Frontend (React/Vite), utilizando Prisma ORM e MongoDB.
 
-.....
 ## 🚀 Pré-requisitos
 
 Antes de começar, certifique-se de ter instalado em sua máquina:
@@ -18,7 +17,7 @@ Siga os passos abaixo para rodar o projeto localmente.
 
 Abra o terminal na pasta raiz do projeto e entre na pasta da API:
 
-cd api
+cd api;
 npm install
 
 ### 2. Configuração de Variáveis de Ambiente:
@@ -30,14 +29,14 @@ PORT=3000
 
 ### 3. Gere o cliente do Prisma e inicie o servidor:
 
-npx prisma generate
+npx prisma generate;
 npm run dev
 
 ### 4. Configurando o Frontend (Web)
 
 Abra um novo terminal (mantenha o da API rodando), volte à raiz do projeto e entre na pasta web:
 
-cd web
+cd web;
 npm install
 
 
