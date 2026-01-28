@@ -1,0 +1,16 @@
+# Dependências do Node (nunca enviar)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Variáveis de Ambiente (segurança)
+.env
+.env.local
+
+# Build de produção do Frontend
+web/dist/
+
+# Arquivos de sistema e IDE
+.DS_Store
+.vscode/
+.idea/
