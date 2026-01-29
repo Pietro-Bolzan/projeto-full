@@ -17,8 +17,8 @@ Siga os passos abaixo para rodar o projeto localmente.
 
 Abra o terminal na pasta raiz do projeto e entre na pasta da API:
 
-cd api
-npm install
+- cd api
+- npm install
 
 ### 2. Configuração de Variáveis de Ambiente:
 
@@ -29,27 +29,27 @@ PORT=3000
 
 ### 3. Gere o cliente do Prisma e inicie o servidor:
 
-npx prisma generate
-npm run dev
+- npx prisma generate
+- npm run dev
 
 ### 4. Configurando o Frontend (Web)
 
 Abra um novo terminal (mantenha o da API rodando), volte à raiz do projeto e entre na pasta web:
 
-cd web
-npm install
+- cd web
+- npm install
 
 
 Inicie a aplicação React:
 
-npm run dev
+- npm run dev
 
 O terminal mostrará o link local para acessar a aplicação.
 
 ## 📂 Estrutura do Projeto:
 
-api/ - Código do servidor Backend (Node.js + Express + Prisma).
-web/ - Código do Frontend (React + Vite).
+- api/ - Código do servidor Backend (Node.js + Express + Prisma).
+- web/ - Código do Frontend (React + Vite).
 
 ## 💻 Tecnologias Utilizadas:
 
